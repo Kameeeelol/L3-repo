@@ -8,7 +8,7 @@ int main() {
         return 1;
     }
 
-    fprintf(f, "graph G {\n");
+    fprintf(f, "graph  {\n");
 
     for (int i = 0; i < 10; i++) {
         fprintf(f, "    %d;\n", i);
