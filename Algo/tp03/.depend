@@ -1,0 +1,6 @@
+graphe-4.o: graphe-4.c graphe-4.h
+test-1.o: test-1.c graphe-4.h
+test-2.o: test-2.c graphe-4.h
+test-3.o: test-3.c graphe-4.h
+test-4.o: test-4.c graphe-4.h
+graphe-4.o: graphe-4.h
