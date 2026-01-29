@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Programmation JavaScript</title>
+        <script src="TPJavaScriptPur.js"></script>
+	</head>
+
+
+	<body>
+		<h1> Mon premier formulaire HTML5</h1>
+        <form action="destination.html">  
+			<fieldset>
+				<legend>Vos données personnelles</legend>
+				<label for="nom">Nom :</label>
+        		<input type="text" id="nom" name="nom" required><br><br>
+				<label for="prénom">Prénom :</label>
+        		<input type="text" id="prénom" name="prénom"><br><br>
+				<label for="date"> Date de naissance </label>
+				<input type="date" id="date" name="date" value="2000-01-01"><br><br>
+				<fieldset>
+					<legend>Lieu de naissance</legend>
+					<input type="radio" id="Seine-Saint-Denis" name="lieuNaissance" value="Seine-Saint-Denis">
+        			<label for="Seine-Saint-Denis">Seine-Saint-Denis</label><br>
+					<input type="radio" id="rdm" name="lieuNaissance" value="rdm">
+        			<label for="rdm">Reste du monde</label><br>
+				</fieldset>
+				<fieldset>
+					<legend>Option NSI au bac</legend>
+					<input type="radio" id="nsi" name="option" value="nsi">
+        			<label for="nsi">OUI</label><br>
+					<input type="radio" id="nsi" name="option" value="nsi">
+        			<label for="nsi">NON</label><br>
+				</fieldset><br><br>
+				<label for="ap"> Adresse postale : </label>
+				<textarea id="ap" rows="2" cols="30"></textarea><br><br>
+				<label for="code"> Code postale :</label>
+				<input type="text" id="code" name="code" pattern="\d{5}"><br><br>
+				<label for="email"> Adresse e-mail : </label>
+				<input type="text" id="email" name="email"><br><br>
+				<label for="url"> Page personnelle : </label>
+				<input type="text" id="url" name="url"><br><br>
+				<label for="phone"> Téléphone protable : </label>
+				<input type="text" id="phone" name="phone" pattern="0[67]\d{8}"><br><br>
+				<label for="semester"> Semestre : </label>
+				<select name="semestre">
+					<option value="S1">S1</option>
+					<option value="S2">S2</option>
+					<option value="S3">S3</option>
+					<option value="S4">S4</option>
+					<option value="S5">S5</option>
+					<option value="S6" selected>S6</option>
+				</select><br><br>
+				<label for="lvl"> Niveau en HTML : </label>
+				<input type="range" id="lvl" name="lvl" min="0" max="10" step="1" value="8"><br><br>
+				<fieldset>
+					<legend>Connaissances</legend>
+					<input type="checkbox" id="HTML" name="HTML" value="HTML" checked>
+        			<label for="HTML">HTML</label>
+					<input type="checkbox" id="CSS" name="CSS" value="CSS">
+        			<label for="CSS">CSS</label>
+					<input type="checkbox" id="formulaires" name="formulaires" value="formulaires">
+        			<label for="formulaires">formulaires</label>
+					<input type="checkbox" id="JS" name="JS" value="JS">
+        			<label for="JS">JavaScript</label>
+				</fieldset><br>
+				<input type="submit" id="sub" name="Envoyer" value="Envoyer">
+				<input type="reset" value="Réinitialiser">
+			</fieldset>
+		</form><br>
+		<footer>Formulaire réalisé dans le cadre du cours de développement web</footer>
+	</body>
+</html>

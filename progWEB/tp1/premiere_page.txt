@@ -1,0 +1,8 @@
+L’Université Sorbonne Paris Nord
+
+L’Université Sorbonne Paris Nord a été créée le 17 décembre 1970.
+
+Cette université accueille près de 25 000 étudiant(e)s et emploie un personnel proche de 1000 personnes.
+Elle est membre fondateur du Campus Condorcet, l’un des tout premiers pôles de recherche en sciences humaines et sociales à l’échelle mondiale, ainsi que de l'alliance d'universités Sorbonne-Paris-Cité avec l'université Paris-Cité.
+
+Cette page a été réalisée en TP de programmation Web.
