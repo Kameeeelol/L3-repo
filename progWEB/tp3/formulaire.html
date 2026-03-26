@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Formulaire</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        form { width: 300px; padding: 20px; border: 1px solid #ccc; position: relative; }
+        input { display: block; width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+        
+        /*Question 2: classe Erreur */
+        .erreur {
+            border: 2px solid red !important;
+            background-color: #ffe6e6; 
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="formulaire.js" defer></script>
+</head>
+<body>
+
+    <form id="mon-formulaire">
+        <input type="text" placeholder="Nom">
+        <input type="text" placeholder="Prénom">
+        <input type="email" placeholder="Email">
+        <button type="button" id="btn-envoyer">Envoyer</button>
+    </form>
+
+</body>
+</html>
